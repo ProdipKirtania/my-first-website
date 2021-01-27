@@ -1,4 +1,5 @@
-// git basics
+ git basics
+ ============
 
 > git init
 > git add README.md
