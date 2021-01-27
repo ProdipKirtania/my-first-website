@@ -19,11 +19,15 @@
 local to remote after changes:
 -----------------
 > git add .
+
 > git commit -m "2nd commit"
+
 > git push
 
-
+to check history
+-------------
 > git log
+
 > git log --oneline
 
 
@@ -49,7 +53,9 @@ Create a new branch and switch to it
 to add new branch in remote
 -------------------------------------
 > git add .
+
 >> git commit -m "2nd commit"
+
 >>> git push --set-upstream origin [new-branch-name]
 
 Switch to a branch
