@@ -1,43 +1,43 @@
 // git basics
 
-git init
-git add README.md
-git add .
-git commit -m "1st commit"
-git branch -M main
-git remote add origin https://github.com/ProdipKirtania/my-first-website.git
-git push -u origin master
+## git init
+## git add README.md
+## git add .
+## git commit -m "1st commit"
+## git branch -M main
+## git remote add origin https://github.com/ProdipKirtania/my-first-website.git
+## git push -u origin master
 
 
 local to remote after changes:
 -----------------
-git add .
-git commit -m "2nd commit"
-git push
+## git add .
+## git commit -m "2nd commit"
+## git push
 
 
-git log
-git log --oneline
+## git log
+## git log --oneline
 
 
 remote to local
 --------------------------
-git pull
+## git pull
 
 ** All about Branch
 =================================================
 
 Listing current branches
 -----------------------------
-git branch
+## git branch
 
 Making a new branch
 -----------------------------
-git branch <branch-name>
+## git branch <branch-name>
 
 Create a new branch and switch to it
 --------------------------------------
-git checkout -b [branch name]
+## git checkout -b [branch name]
 
 to add new branch in remote
 -------------------------------------
@@ -47,14 +47,14 @@ to add new branch in remote
 
 Switch to a branch
 --------------------------
-git checkout [branch name]
+## git checkout [branch name]
 
 Merge a branch into the active branch
 ------------------------------------
-git merge [branch name]
+## git merge [branch name]
 
 Merge a branch into a target branch
 -----------------------------------
-git merge [source branch] [target branch]
+## git merge [source branch] [target branch]
 
 https://prodipkirtania.github.io/my-first-website/
